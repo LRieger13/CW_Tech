@@ -1,0 +1,99 @@
+/************* FONTS ****************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+/************* BODY ***************/
+body {
+  font-family: "Open Sans Condensed";
+}
+
+/************* HEADER **************/
+.header-wrapper {
+  position: relative;
+  background: url("./Images/cw.jfif") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Open Sans Condensed";
+  background-color: #3d3d3d2d;
+}
+
+.main-info h1 {
+  color: #3d3d3d;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+/************* TYPED **************/
+.typed-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(66, 99, 206);
+}
+
+.btn-main-offer {
+  border: 1px dashed #000c3f;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: #000c3f;
+  text-decoration: none;
+}
+
+.btn-main-offer:hover {
+  color: rgb(66, 99, 206);
+  font-style: italic;
+}
+
+/************* DATA ***************/
+.data {
+  font-family: "Open Sans Condensed";
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  background-color: #3d3d3d2d;
+}
+
+.content {
+  font-family: "Open Sans Condensed";
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: #3d3d3d2d;
+  font-size: 20px;
+}
+
+.searching {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searching input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+}
